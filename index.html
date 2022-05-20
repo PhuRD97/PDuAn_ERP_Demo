@@ -29,6 +29,20 @@
       href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -50,9 +64,13 @@
         <ul class="list-unstyled components">
           <!-- <p>Dummy Heading</p> -->
           <div class="container my-3">
-            <div class="form-control searchBox ">
+            <div class="form-control searchBox">
               <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" class="searchType ml-2" placeholder="Tìm kiếm" />
+              <input
+                type="text"
+                class="searchType ml-2"
+                placeholder="Tìm kiếm"
+              />
             </div>
           </div>
           <li>
@@ -71,10 +89,16 @@
                 >
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-arrow-up-right-dots"></i><span class="pl-2">Tiến độ dự án</span></a>
+                <a href="#"
+                  ><i class="fa-solid fa-arrow-up-right-dots"></i
+                  ><span class="pl-2">Tiến độ dự án</span></a
+                >
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-feather-pointed"></i><span class="pl-2">Báo cáo</span></a>
+                <a href="#"
+                  ><i class="fa-solid fa-feather-pointed"></i
+                  ><span class="pl-2">Báo cáo</span></a
+                >
               </li>
             </ul>
           </li>
@@ -88,13 +112,40 @@
             >
             <ul class="collapse list-unstyled" id="QuanLy">
               <li>
-                <a href="#"><i class="fa-solid fa-people-group"></i><span class="pl-2">Nhân sự dự án</span></a>
+                <a href="#"
+                  ><i class="fa-solid fa-people-group"></i>
+                  <span class="pl-2">Quản lý nhân sự</span></a
+                >
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-sitemap"></i><span class="pl-2">Phòng ban</span></a>
+                <a href="#"
+                  ><i class="fa-solid fa-sitemap"></i
+                  ><span class="pl-2">Quy trình thực hiện</span></a
+                >
               </li>
               <li>
-                <a href="#"><i class="fa-solid fa-diagram-project"></i><span class="pl-2">Mảng dự án</span></a>
+                <a href="#"
+                  ><i class="fa-solid fa-diagram-project"></i
+                  ><span class="pl-2">Dự án - Phân công </span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-diagram-project"></i
+                  ><span class="pl-2">Thực hiện công việc </span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-diagram-project"></i
+                  ><span class="pl-2">Quản lý tiến độ</span></a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-diagram-project"></i
+                  ><span class="pl-2">Trao đổi thảo luận</span></a
+                >
               </li>
             </ul>
           </li>
@@ -128,21 +179,62 @@
             </ul>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a
+              href="#DanhGia"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="dropdown-toggle"
+              >Đánh giá</a
+            >
+            <ul class="collapse list-unstyled" id="DanhGia">
+              <li>
+                <a href="#">Hiệu quả dự án/công việc</a>
+              </li>
+              <li>
+                <a href="#">Hiệu quả nhân viên</a>
+              </li>
+              <li>
+                <a href="#">Thông báo</a>
+              </li>
+            </ul>
           </li>
         </ul>
       </nav>
       <!-- content -->
       <div id="content">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+        >
           <div class="container-fluid">
-            <button type="button" id="sidebarCollapse" class="btn btn-info">
+            <button type="button" id="sidebarCollapse" class="btn btn-secondary">
               <i class="fas fa-align-left"></i>
               <!-- <span>Toggle Sidebar</span> -->
             </button>
           </div>
         </nav>
       </div>
+      <!-- section1 -->
+      <section class="header container-fluid">
+        <nav class="navbar navbar-expand-sm bg-color-cus navbar-light">
+          <!-- Brand/logo -->
+          <a class="navbar-brand ml-auto" href="#">
+            <!-- <img src="bird.jpg" alt="logo" style="width: 40px" /> -->
+          </a>
+
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link 3</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

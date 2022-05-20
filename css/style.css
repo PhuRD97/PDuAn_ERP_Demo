@@ -3,7 +3,9 @@
   background-size: cover;
   padding: 0;
   margin: 0;
-  font-family: "Philosopher", sans-serif;
+  /* font-family: "Philosopher", sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Montserrat", sans-serif;
 }
 /* color table */
 :root {
@@ -55,17 +57,34 @@ a[data-toggle="collapse"] {
 
 .form-control.searchBox .searchType {
   border: none;
+  width: 90%;
+}
+.navbar.navbar-expand-lg.navbar-light{
+  position: absolute;
+  padding-right: 50px;
+  border-top-right-radius:20px ;
+  z-index: 99;
 }
 /* loại bỏ outline khi chọn nhập input */
-input.searchType:focus{
+input.searchType:focus {
   outline-width: 0;
 }
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: none;
+  outline: none;
 }
+/* section1 */
+.header {
+  padding: 0;
+}
+.bg-color-cus {
+  background-color: #7386d5;
+  position: relative;
+
+}
+
 /*
     ADDITIONAL DEMO STYLE, NOT IMPORTANT TO MAKE THINGS WORK BUT TO MAKE IT A BIT NICER :)
 */
